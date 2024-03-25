@@ -5,11 +5,11 @@
 
 
 body{
-    overflow-y: auto;
+    overflow-y: auto hidden;
 }
-@media (min-width: 768px) {
-    .body {
-        align-items: center;
-        margin-left: 20%;
+@media (max-width: 768px) {
+    body {
+        width: 100%;
+        margin-left: 25%;
     }
 }

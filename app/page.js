@@ -5,8 +5,6 @@ import next from "/public/next-div.png";
 import amet from "/public/amet.png";
 import filter from "/public/Filter.png";
 import brand from "/public/brand.png";
-import man from "/public/main-home-category-img-5.jpg.png";
-import woman from "/public/main-home-category-img-4.jpg.png";
 import holder from "/public/div.qodef-text-holder.png";
 import butique from "/public/Video-clients-img-2.png.png";
 import ox from "/public/Video-clients-img-3.png.png";
@@ -53,23 +51,23 @@ import grid from "/public/grid.png";
 export default function Home() {
   return (
     <>
-      <div className="relative">
+      <div className="relative w-full">
         <Image src={rsSlide} alt="rsSlide" className="absolute inset-0 bg-transparent" />
-        <Image style={{borderBottom:'1px solid black'}} src={navbar} alt="Logo" className="relative" />
+        <Image style={{ borderBottom: '1px solid black' }} src={navbar} alt="Logo" className="relative" />
       </div>
 
 
-        <div style={{padding:'290px'}}>
-          <Image style={{ width: '50%' }} src={amet} alt="rsSlide" />
-        </div>
+      <div style={{ padding: '290px', width:'100%' }}>
+        <Image style={{ width: '50%' }} src={amet} alt="rsSlide" />
+      </div>
 
-      <div style={{textAlign:'center', marginLeft:'25%'}} className="flex justify-center w-1/2 my-20">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
+      <div style={{ textAlign: 'center', marginLeft: '25%' }} className="flex justify-center w-1/2 my-20">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
       </div>
 
       <div className="ml-5" style={{ display: 'flex', gap: '50%' }}>
 
-        
+
         <div>
           <Image style={{ width: '496px', height: '22px' }} src={next} alt="rsSlide" />
         </div>
@@ -88,7 +86,7 @@ export default function Home() {
         <div className="">
 
           <Image src={grid} alt="rsSlide" />
-          
+
 
         </div>
       </div>
@@ -145,10 +143,10 @@ export default function Home() {
       </div>
 
       <div className="w-full ">
-        <Image  src={newsletter} alt="elementor" />
+        <Image src={newsletter} alt="elementor" />
       </div>
 
-      <div  className="flex justify-center mt-20">
+      <div className="flex justify-center mt-20">
         <Image style={{ width: '33.3%', height: '70vh' }} src={main} alt="elementor" />
         <Image style={{ width: '33.3%', height: '70vh' }} src={divm} alt="elementor" />
         <div className=" ml-20 mt-20" style={{ width: '33.3%', height: '70vh', }}>
